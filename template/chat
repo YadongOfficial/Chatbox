@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Python Chat App - {{ username }} - {{ room }}</title>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.3/socket.io.min.js"></script>
+    <script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Python Chat App - {{ username }} - {{ room }}</h1>
+    <div id="messages"></div>
+    <form id="message-form">
+        <label for="message">Message:</label>
+        <input type="text" name="message" id="message" required>
+        <input type
